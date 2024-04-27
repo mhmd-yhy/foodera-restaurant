@@ -67,3 +67,7 @@ let cardExplore = () => {
   });
 };
 cardExplore();
+
+document.querySelector(`form`).onsubmit = (e) => {
+  e.preventDefault();
+};
